@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.his.group1</groupId>
+	<artifactId>parameters-eval</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>HIS Project</name>
+	<description>this project is created by : Faraz Islam, Abdu Hameed Ahmedulla Khan, Nishit Singh. to evaluate the parameters used in Evolutionary Algorthem to cover the network monetoring </description>
+	<properties>
+		<poi.version>3.13</poi.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.tinkerpop.blueprints</groupId>
+			<artifactId>blueprints-core</artifactId>
+			<version>2.6.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+	</dependencies>
+</project>
